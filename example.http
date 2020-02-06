@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/users 
+content-type: application/json
+
+{
+    "username": "Anna",
+    "realname":"Anna Polina",
+    "password_hash": "toto123",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Anna_Polina_2010.jpg/494px-Anna_Polina_2010.jpg",
+    "location":"France, Paris",
+    "description":"I have Slavic romantic melancholy."
+}
